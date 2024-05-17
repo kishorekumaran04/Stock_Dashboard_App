@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        white: "white",
+        none: "none"
+      },
+      borderWidth: {
+        1: "1px"
+      },
+      fontFamily: {
+        quickSand: ["Quicksand", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
